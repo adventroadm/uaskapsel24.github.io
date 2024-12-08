@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matematika UNPAR</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="test donate/donate.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+    <header>
+        <section class="header">
+            <nav>
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="OGOL/logo_unpar.png">
+                    <img src="OGOL/MATUNPAR.png">
+                    <img src="OGOL/HIMAMAT.png">
+                </div>
+                <!-- Navigation Links -->
+                <div class="nav-links"> 
+                    <ul>
+                        <li><a href="HOME.html">HOME</a></li>
+                        <li><a href="STRUKTURAL_DOSEN.html">STRUKTURAL</a></li>
+                        <li><a href="PEMINATAN.html">PEMINATAN</a></li>
+                        <li><a href="himpunan.html">HIMPUNAN</a></li>
+                    </ul>
+                </div>
+                <!-- Login and Register Buttons -->
+                <div class="auth-buttons">
+                    <button id="login-btn" class="btn">Login</button>
+                    <button id="register-btn" class="btn">Register</button>
+                </div>
+            </nav>
+            <!-- Welcome Text -->
+            <div class="text-box">
+                <h1>SELAMAT DATANG DI</h1>
+                <h2>MATEMATIKA</h2>
+                <h3>UNIVERSITAS KATOLIK PARAHYANGAN</h3>
+            </div>
+        </section>
+    </header>
+    <div class="mid-text">
+        <p>Ayo Menyelam Lebih Dalam Lagi!</p>
+    </div>
+
+    <!-- Section 2 -->
+    <section class="section section-2">
+        <div class="scroll-container">
+            <a href="https://matematika.unpar.ac.id/swufe-chengdu-2024/" target="_blank" class="item 1">
+            <div class="item">
+                <img src="OTOF/content1.png" alt="Item 1">
+                <p>4 Mahasiswi Matematika UNPAR berpartisipasi<br>dalam SWUFE Global Academy Summer Camp</p>
+            </div>
+            </a>
+            <a href="https://matematika.unpar.ac.id/kunjungan-perusahaan-2024/" target="_blank" class="item 1">
+            <div class="item">
+                <img src="OTOF/content2.png" alt="Item 2">
+                <p>Kunjungan Perusahaan 2024</p>
+            </div>
+            </a>
+            <a href="https://matematika.unpar.ac.id/pengembangan-program-keterampilan-matematika-dasar/" target="_blank" class="item 1">
+            <div class="item">
+                <img src="OTOF/content3.png" alt="Item 3">
+                <p>Pengembangan Program Keterampilan<br>Matematika Dasar</p>
+            </div>
+            </a>
+            <a href="https://matematika.unpar.ac.id/kultam-math-myth-and-money/" target="_blank" class="item 1">
+            <div class="item">
+                <img src="OTOF/content4.png" alt="Item 4">
+                <p>Kuliah Tamu Math, Myth, and Money</p>
+            </div>
+            </a>
+            <a href="https://matematika.unpar.ac.id/aktuaria-trimulia-bandung/" target="_blank" class="item 1">
+            <div class="item">
+                <img src="OTOF/content5.png" alt="Item 5">
+                <p>Seminar Aktuaria di SMA Trimulia Bandung</p>
+            </div>
+            </a>
+        </div>
+    </section>
+
+    <a href="#" class="back-to-top" id="backToTopBtn">&#8679;</a>
+    <!-- Section 3 -->
+    <section class="section section-3" id="text-section">
+        <div class="fade-in-text" id="textContainer"></div>
+    </section>
+    <a href="#" class="back-to-top" id="backToTopBtn">&#8679;</a>
+
+
+    <div class="line-container">
+        <div class="line-left"></div>
+        <div class="line-right"></div>
+      </div>
+
+      <section class="section section-4">
+        <div class="left-text fade-in-up">
+            <h1>INGIN TAHU KAMI LEBIH JAUH?</h1>
+        </div>
+        <div class="right-boxes fade-in-up">
+            <div class="box"><a href="STRUKTURAL_DOSEN.html">Struktural</a></div>
+            <div class="box"><a href="PEMINATAN.html">Peminatan</a></div>
+            <div class="box"><a href="himpunan.html">Himpunan</a></div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="close-login">&times;</span>
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </div>
+</div>
+
+<!-- Register Modal -->
+<div id="register-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="close-register">&times;</span>
+        <h2>Register</h2>
+        <form id="register-form">
+            <input type="text" id="reg-username" name="username" placeholder="Username" required>
+            <input type="email" id="reg-email" name="email" placeholder="Email" required>
+            <input type="password" id="reg-password" name="password" placeholder="Password" required>
+            <button type="submit" class="btn">Register</button>
+        </form>
+    </div>
+</div>
+
+<script src="modal.js"></script>
+    <script src="aniani.js"></script>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="OGOL/LOGO_UNPAR_TRANS.png" alt="Logo Universitas Katolik Parahyangan">
+                <address>
+                    <p>Jl. Ciumbuleuit No. 94 Bandung 40141<br>Jawa Barat</p>
+                    <p>(022) 203 2655, (022) 204 2004</p>
+                    <p>math@unpar.ac.id</p>
+                </address>
+            </div>
+    
+            <div class="footer-extra">
+                <div class="logos">
+                    <img src="OGOL/BAN-PT.png" alt="BAN-PT">
+                    <img src="OGOL/MBKM.png" alt="Kampus Merdeka">
+                </div>
+                <div class="footer-button">
+                    <a href="#" class="cta-button">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 Matematika Universitas Katolik Parahyangan. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
